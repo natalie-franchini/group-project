@@ -12,14 +12,16 @@ section {
 
 h1 {
   text-align: center;
+  font-family: 'Londrina Shadow', cursive;
+  color: rgb(112,41,99);
+  font-size: 5em;
 }
 h2 {
-  text-align: left;
+  text-align: center;
+  font-family: 'Londrina Shadow', cursive;
+  color: rgb(112,41,99);
+  font-size: 3em;
 }
-h1{
-  font-size: 5em; /* this would be 80 pixels. You can check by inspecting elements in google chrome the default is 16 pixels in browsers so 16x5 = 80*/
-}
-h2 {font-size: 2.5em;}
 
 img {
   display: flex;
@@ -28,59 +30,30 @@ img {
 }
 
 p {
-  width:40%;
+  font-family: 'Handlee', cursive;
+  text-align: center;
   margin: 10vh 10vw;
   font-size: 1.5em;
 }
 
-a {
+section {
+  background: rgba(161,202,241,0.25);
   color: rgb(0,0,0);
-}
-
-ol{
-  list-style: none;
-  padding: 0;
-  margin-bottom: 10%;
-  font-size: 3em;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-/* ol li:first-of-type {color: pink; } -->
-ol li:last-of-type {color: purple; } */
-
-li#lower {
-  margin-top: 7%
-}
-
-li#lowest {
-  margin-top: 14%
-}
-
-section.contrast {
-  background-color: rgb(0,0,0);
-  color: rgb(255,255,255);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-
-ul {
-  list-style: none;
-  display: flex;
-}
-li {
-  margin: 0 20px;
-  transition: 0.6s ease;
-}
-li:hover {
-  font-size: 1.2em;
-  transition: 0.6s ease;
-}
+input {
+     border: 10px;
+     text-align: center;
+     padding: 20px;
+     font-size: 18px;
+   }
 
 button {
+  color: purple;
   display: flex;
-  padding: 20px;
+  padding: 10px;
   margin: 0 auto;
 }
