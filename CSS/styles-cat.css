@@ -1,63 +1,3 @@
-body {
-  color: rgb(65,75,86);
-  font-family: arial, helvetica, georgia;
-  margin: 0px;
-}
-
-header,
-section {
-  min-height:50vh;
-  width: 100vw;
-}
-
-h1 {
-  text-align: center;
-  font-family: 'Londrina Shadow', cursive;
-  color: rgb(112,41,99);
-  font-size: 5em;
-}
-h2 {
-  text-align: center;
-  font-family: 'Londrina Shadow', cursive;
-  color: rgb(112,41,99);
-  font-size: 3em;
-}
-
-img {
-  display: flex;
-  padding: 20px;
-  margin: 0 auto;
-}
-
-p {
-  font-family: 'Handlee', cursive;
-  text-align: center;
-  margin: 10vh 10vw;
-  font-size: 1.5em;
-}
-
-section {
-  background: rgba(161,202,241,0.25);
-  color: rgb(0,0,0);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-input {
-     border: 10px;
-     text-align: center;
-     padding: 20px;
-     font-size: 18px;
-   }
-
-button {
-  color: purple;
-  display: flex;
-  padding: 10px;
-  margin: 0 auto;
-}
-
 /*Start of Styles for CSS Cat*/
 @keyframes an-pupils {
     from {
@@ -78,13 +18,13 @@ button {
 }
 
 body {
-  background-color:#0A7E8C;
+  background: url("../images/Background-fur.jpg");
+  background-size: cover;
 }
 
 #cat {
 	width: 480px;
 	margin:20px auto;
-
 }
 
 
@@ -212,3 +152,63 @@ top: 96px;
 
 }
 /*End of Styles for CSS Cat*/
+
+body {
+  color: rgb(65,75,86);
+  font-family: arial, helvetica, georgia;
+  margin: 0px;
+}
+
+header,
+section {
+  min-height:50vh;
+  width: 100vw;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Londrina Shadow', cursive;
+  color: rgb(112,41,99);
+  font-size: 5em;
+}
+h2 {
+  text-align: center;
+  font-family: 'Londrina Shadow', cursive;
+  color: rgb(112,41,99);
+  font-size: 3em;
+}
+
+img {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+p {
+  font-family: 'Handlee', cursive;
+  text-align: center;
+  margin: 10vh 10vw;
+  font-size: 1.5em;
+}
+
+section {
+  background: rgba(161,202,241,0.25);
+  color: rgb(0,0,0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input {
+     border: 10px;
+     text-align: center;
+     padding: 20px;
+     font-size: 18px;
+   }
+
+button {
+  color: purple;
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
+}
