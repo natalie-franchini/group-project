@@ -4,23 +4,33 @@ body {
   margin: 0px;
 }
 
-header,
-section {
-  min-height:50vh;
-  width: 100vw;
+header {
+  background-image: url("../images/art-cat.jpg");
+  height: 800px;
+  background-size: cover;
+  position: relative;
+  border-radius: 12px;
+}
+
+header p {
+  font-family: 'Handlee', cursive;
+  text-align: left;
+  margin: 20px 800px 20px 20px;
+  font-size: 1.5em;
+  color: black;
 }
 
 h1 {
   text-align: center;
   font-family: 'Londrina Shadow', cursive;
-  color: rgb(112,41,99);
+  color: white;
   font-size: 5em;
 }
 
 h2 {
   text-align: center;
   font-family: 'Londrina Shadow', cursive;
-  color: rgb(112,41,99);
+  color: black;
   font-size: 3em;
 }
 
@@ -45,6 +55,7 @@ p {
   text-align: center;
   margin: 10vh 10vw;
   font-size: 1.5em;
+  color: black;
 }
 
 section {
