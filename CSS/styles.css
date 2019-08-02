@@ -4,11 +4,12 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: lightsteelblue;
 }
 
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: lavender;
   padding: 20px 10px;
 }
 
@@ -30,13 +31,13 @@ body {
 }
 
 .header a:hover {
-  background-color: #ddd;
+  background-color: lightsteelblue;
   color: black;
 }
 
 .header a.active {
   background-color: pink;
-  color: white;
+  color: black;
 }
 
 .header-right {
@@ -65,15 +66,16 @@ body {
 header {
   /*background-image: url("../images/cat-shadow.jpg");*/
   /*height: 1000px;*/
-  background-size: cover;
-  position: relative;
-  border-radius: 12px;
+  /*background-size: cover;*/
+  /*position: relative;*/
+  /*border-radius: 12px;*/
+  background-color: lightsteelblue;
 }
 
 header p {
   font-family: 'Handlee', cursive;
-  text-align: left;
-  margin: 20px 800px 20px 20px;
+  text-align: center;
+  margin: 20px;
   font-size: 1.5em;
   color: black;
 }
@@ -117,12 +119,13 @@ p {
 }
 
 section {
-  background: rgba(161,202,241,0.25);
+  background: lightsteelblue;
   color: rgb(0,0,0);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 40px 0 40px 0;
 }
 input {
   border: 10px;
@@ -140,13 +143,14 @@ button {
 
 .btn-primary {
   color: white;
-  background-color: teal;
+  background-color: cornflowerblue;
+  border-color: cornflowerblue;
 }
 
 .btn-secondary {
   color: white;
   background-color: darkslateblue;
-  border-color: white;
+  border-color: darkslateblue;
   display: flex;
 }
 
@@ -157,13 +161,14 @@ body {font-family: Verdana, sans-serif; margin:0}
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  background: #f1f1f1f1;
+  background: thistle;
+  padding-top: 40px;
 }
 
 /* Slides */
 .mySlides {
   display: none;
-  padding: 80px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -227,7 +232,7 @@ q {font-style: italic;}
 /*End of CSS for Carousl*/
 
 .bottom-section {
-  background-color: cornflowerblue;
+  background-color: cadetblue;
   padding: 20px;
 }
 
