@@ -235,6 +235,7 @@ q {font-style: italic;}
 .bottom-section {
   background-color: cadetblue;
   padding: 20px;
+  text-align: center;
 }
 
 /*Social media icons*/
@@ -266,5 +267,11 @@ q {font-style: italic;}
   color: white;
 }
 .logo {
+  text-align: center;
+}
+.form-control {
+  text-align: center;
+}
+.form-group {
   text-align: center;
 }
