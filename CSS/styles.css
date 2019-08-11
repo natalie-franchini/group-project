@@ -14,7 +14,7 @@ body {
 }
 
 .header a {
-  color: black;
+  color: rgb(73, 62, 56);
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -25,19 +25,20 @@ body {
 
 .header a:hover {
   background-color: lightsteelblue;
-  color: black;
+  color: rgb(73, 62, 56);
 }
 
 .header a.active {
   background-color: pink;
-  color: black;
+  color: rgb(73, 62, 56);
 }
 
 .header a.logo img {
   padding: 0;
   border-radius:  80px 80px 20px 20px;
   border-style: solid;
-  border-width: thin;
+  border-width: medium;
+  border-color: rgb(73, 62, 56);
 }
 
 .header-right {
