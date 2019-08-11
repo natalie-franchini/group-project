@@ -9,12 +9,11 @@ body {
 
 .header {
   overflow: hidden;
-  background-color: lavender;
+  background-color: cadetblue;
   padding: 20px 10px;
 }
 
 .header a {
-
   color: black;
   text-align: center;
   padding: 12px;
@@ -22,12 +21,6 @@ body {
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
-}
-
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-  padding: 0;
 }
 
 .header a:hover {
@@ -40,11 +33,16 @@ body {
   color: black;
 }
 
+.header a.logo img {
+  padding: 0;
+  border-radius:  80px 80px 20px 20px;
+  border-style: solid;
+  border-width: thin;
+}
+
 .header-right {
   float: right;
 }
-
-
 
 @media screen and (max-width: 500px) {
   .header a {
@@ -58,11 +56,6 @@ body {
 }
 /*end of nav bar*/
 
-/*body {
-  color: rgb(65,75,86);
-  font-family: arial, helvetica, georgia;
-  margin: 0px;
-}*/
 
 header {
   /*background-image: url("../images/cat-shadow.jpg");*/
