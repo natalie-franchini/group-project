@@ -139,6 +139,10 @@ input {
   font-size: 18px;
 }
 
+.list-group-item {
+  background-color: silver;
+}
+
 button {
   color: purple;
   display: flex;
