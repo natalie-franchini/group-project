@@ -24,7 +24,11 @@
 <body>
   <!-- Nav Bar -->
   <div class="header">
-    <a href="cat.html" class="logo"><img src="http://placekitten.com/200/300" height=100px></a>
+    <a href="cat.html" class="logo">
+      <div class="logo">
+        <img src="images/cat-logo.jpg" height=150px>
+      </div>
+    </a>
     <div class="header-right">
       <a href="index.html">Home</a>
       <a href="adopt.html">Adopt</a>
@@ -32,38 +36,62 @@
     </div>
   </div>
 
-<!--CSS Cat-->
+  <!--CSS Cat-->
   <div id="cat">
-  		<div id="ears">
-  				<div class="ear"></div>
-  				<div class="ear"></div>
-  		</div>
-  		<div id="head">
-  			<div id="eyes">
-  				<div class="eye">
-  					<div class="pupil">
-  						<div class="pupil_ref"></div>
-  					</div>
-  				</div>
-  				<div class="eye">
-  					<div class="pupil">
-  						<div class="pupil_ref"></div>
-  					</div>
-  				</div>
-  			</div>
-  			<div id="nose"></div>
-  			<div id="baffi_dx">
-  					<div class="baffo"></div>
-  					<div class="baffo"></div>
-  					<div class="baffo"></div>
-  			</div>
-  			<div id="baffi_sx">
-  					<div class="baffo"></div>
-  					<div class="baffo"></div>
-  					<div class="baffo"></div>
-  			</div>
-  		</div>
-  	</div>
+    <div id="ears">
+      <div class="ear"></div>
+      <div class="ear"></div>
+    </div>
+    <div id="head">
+      <div id="eyes">
+        <div class="eye">
+          <div class="pupil">
+            <div class="pupil_ref"></div>
+          </div>
+        </div>
+        <div class="eye">
+          <div class="pupil">
+            <div class="pupil_ref"></div>
+          </div>
+        </div>
+      </div>
+      <div id="nose"></div>
+      <div id="baffi_dx">
+        <div class="baffo"></div>
+        <div class="baffo"></div>
+        <div class="baffo"></div>
+      </div>
+      <div id="baffi_sx">
+        <div class="baffo"></div>
+        <div class="baffo"></div>
+        <div class="baffo"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-section">
+    <!-- Mailing List form -->
+    <div class="container">
+      <h4>Join our mailing list</h4>
+      <form class="form-horizontal" action="/action_page.php">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Email:</label>
+
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+
+        </div>
+        <div class="form-group">
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+        </div>
+      </form>
+    </div>
+    <!-- Add font awesome icons -->
+    <a href="https://facebook.com" class="fa fa-facebook"></a>
+    <a href="https://twitter.com" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+  </div>
 
 
-  </body>
+</body>
