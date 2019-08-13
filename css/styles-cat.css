@@ -255,3 +255,6 @@ top: 96px;
 .form-group {
   text-align: center;
 }
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
